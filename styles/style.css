@@ -371,27 +371,80 @@
 
 .footer-section{
     background: #0B0223;
-    margin-top: 100px;
+    margin-top: 10px;
     text-align: center;
-    width:1440px;
-    height: 400px;
-    padding: 150px;
+    height: 500px;
+    width: 100%;
+    padding: 200px;
+    margin: 10px 120px;
+}
+.footer-img img{
+    width: 87px;
+    height: 40px;
+}
+.footer-img{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFF;
 }
 .footer-content {
     padding: 20px;
     color: #FFF;
     font-size: 1rem;
     font-weight: 600;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
     list-style: none;
     display: inline;
+    padding-top: 200px;
 }
-.icons a{
-    padding-top: 100px;
+.footer-content a{
+    padding: 30px 40px;
+    color: #FFF;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footr-icons {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.footr-icons a{
+   font-size: 2rem;
+   color: inherit;
+   width: 40px;
+   height: 40px;
+   padding: 15px;
+   display: inline-block;
+   text-align: center;
+   margin: 0 10px;
+}
+.footer-container {
+    padding: 20px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 90px;
+    list-style: none;
+    display: inline;
+    margin-bottom: 20px;
 }
 .footer-container a{
+    padding: 30px 40px;
+    color: #FFF;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.copy-right{
     color: rgba(255, 255, 255, 0.60);
-    text-align: center;
     font-size: 1rem;
     font-weight: 500;
+    margin-top: 30px;
+}
+.fa-twitter, .fa-facebook,
+.fa-youtube,
+.fa-linkedin-in,
+.fa-instagram,
+.fa-apple{
+    color: #FFF;
 }
