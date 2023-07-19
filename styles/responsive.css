@@ -3,6 +3,8 @@
 @media screen and (max-width: 600px){
     .nav-bar{
         flex-direction: column;
+        padding: 15px 0px;
+        margin: 0 auto;
 } 
 
     .nav-logo{
@@ -16,7 +18,7 @@
         width: 100%;
 }
     .nav-bar li a{
-        font-size: 1.9rem;
+        font-size: 1.6rem;
         margin: 0 auto;
 }
 .nav-bar li {
@@ -26,6 +28,66 @@
 
 
 
+}
+.content{
+    flex-direction: column;
+    margin: 0 auto;
+}
+.img-section img{
+    max-width: 370px;
+    height: 500px;
+}
+.play-title{
+    color: #0B0223;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.play-name{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto;
+}
+.play-info{
+   text-align: center;
+}
+.gammer-container{
+    flex-direction: column-reverse;
+}
+.gammer-content{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+.gammer-description{
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+.gammer-purpose{
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+.gammer-img img{
+    max-width: 390px;
+    height: 350px;
+    margin: 0 auto;
+}
+.btn-btn{
+   margin-right: 50px;
+    
+}
+/* .btn-btn-btn{
+    margin-left: 150px;
+} */
+.btn{
+  margin-left: 140px;
 }
 
 
@@ -37,7 +99,11 @@
     
     .nav-bar{
         flex-direction: column;
+        
 } 
+.nav-bar{
+      
+}
 
 
 
